@@ -5,6 +5,7 @@
     <h1 class="header-area">
       <a
         href="https://editor.mcjpg.org/"
+        class="header-link"
       >
         <img class="mark-markdown" src="@assets/images/markdown.png" alt="在线 Markdown 编辑器" />
         <strong v-if="!isMobile" class="header-text">{{ titleText }}</strong>
